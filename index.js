@@ -147,12 +147,12 @@ function resetAll() {
 
 function beepRoundEnd() {
   console.log("round end beep");
-  const sound = new Audio("/sounds/end.mp3");
+  const sound = new Audio("./sounds/end.mp3");
   sound.play();
 }
 
 function beepStart() {
   console.log("break end beep");
-  const sound = new Audio("/sounds/start.mp3");
+  const sound = new Audio("./sounds/start.mp3");
   sound.play();
 }
