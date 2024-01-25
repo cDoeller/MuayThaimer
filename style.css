@@ -1,0 +1,66 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.headline {
+  text-transform: uppercase;
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+.input {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 50%;
+}
+
+#start-button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border-style: none;
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+}
+
+#time-display {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
