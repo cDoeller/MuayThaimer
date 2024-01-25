@@ -18,7 +18,7 @@ main {
   align-items: center;
   flex-direction: column;
   padding: 30px;
-  min-height: 100dvh;
+  min-height: 100svh;
   box-sizing: border-box;
 }
 
